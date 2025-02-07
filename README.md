@@ -2,6 +2,13 @@
 
 This directory contains Model Context Protocol (MCP) server implementations that extend LibreChat's capabilities through the Supergateway bridge.
 
+
+These are the projects I am tiing together.  
+- This is the think that gives any kind of tool to the Agent.  [Model Context Protocol Specification](https://spec.modelcontextprotocol.io/)
+- Converts stdio MCP servers to SSE and each server can run in its own container.  I will see how this scales [Supergateway Documentation](https://github.com/supercorp-ai/supergateway)
+- Multi-LLM agent and MCP client [LibreChat Documentation](https://docs.librechat.ai/)
+
+
 ## Directory Structure
 
 ```
